@@ -7,7 +7,7 @@ const {dbConnect} = require('./config/dbConnection')
 
 //configuration cors
 var corsOptions = {
-    origin: '*',
+    origin: 'https://danymitte.vercel.app',
     optionsSuccessStatus: 200,
 }
 app.use(cors(corsOptions))
